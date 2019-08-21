@@ -9,6 +9,10 @@
     "deploy": "now && now alias",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jasonjalufka/mini-stats.git"
+  },
   "author": "Jason Jalufka <jasonjalufka@gmail.com>",
   "license": "MIT",
   "dependencies": {
