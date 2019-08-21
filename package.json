@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.1.0",
+    "mem": ">=4.0.0",
     "micro": "^9.3.4",
     "node-fetch": "^2.6.0",
     "now-micro": "^0.4.0"
