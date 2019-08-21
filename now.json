@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "alias": "jsn-stats",
+  "builds": [{ "src": "index.js", "use": "now-micro" }],
+  "routes": [{ "src": "/.*", "dest": "index.js" }]
+}
