@@ -3,9 +3,7 @@
   "alias": "jsn-stats",
   "builds": [{ "src": "index.js", "use": "now-micro" }],
   "routes": [{ "src": "/.*", "dest": "index.js" }],
-  "build": {
-    "env": {
-      "WEATHER_API_KEY": "@weather-api-key"
-    }
+  "env": {
+    "WEATHER_API_KEY": "@weather-api-key"
   }
 }
