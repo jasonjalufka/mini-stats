@@ -8,7 +8,7 @@ const weather = async function() {
   );
 
   return {
-    temp: data.main.temp,
+    temp: `${data.main.temp}°`,
     city: data.name
   };
 };
